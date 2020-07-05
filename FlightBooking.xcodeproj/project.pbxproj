@@ -13,6 +13,9 @@
 		5BF8758124B2085500F6509E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF8757F24B2085500F6509E /* Main.storyboard */; };
 		5BF8758324B2085700F6509E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF8758224B2085700F6509E /* Assets.xcassets */; };
 		5BF8758624B2085700F6509E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF8758424B2085700F6509E /* LaunchScreen.storyboard */; };
+		5BF8758F24B2088F00F6509E /* travel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BF8758E24B2088F00F6509E /* travel.jpg */; };
+		5BF8759124B2092200F6509E /* travel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BF8759024B2092200F6509E /* travel2.jpg */; };
+		5BF8759324B20BBD00F6509E /* travel3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BF8759224B20BBC00F6509E /* travel3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5BF8758224B2085700F6509E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF8758524B2085700F6509E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BF8758724B2085700F6509E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF8758E24B2088F00F6509E /* travel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = travel.jpg; sourceTree = "<group>"; };
+		5BF8759024B2092200F6509E /* travel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = travel2.jpg; sourceTree = "<group>"; };
+		5BF8759224B20BBC00F6509E /* travel3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = travel3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		5BF8757824B2085500F6509E /* FlightBooking */ = {
 			isa = PBXGroup;
 			children = (
+				5BF8758D24B2087700F6509E /* Resource */,
 				5BF8757924B2085500F6509E /* AppDelegate.swift */,
 				5BF8757B24B2085500F6509E /* SceneDelegate.swift */,
 				5BF8757D24B2085500F6509E /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				5BF8758724B2085700F6509E /* Info.plist */,
 			);
 			path = FlightBooking;
+			sourceTree = "<group>";
+		};
+		5BF8758D24B2087700F6509E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5BF8759224B20BBC00F6509E /* travel3.jpg */,
+				5BF8759024B2092200F6509E /* travel2.jpg */,
+				5BF8758E24B2088F00F6509E /* travel.jpg */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BF8758624B2085700F6509E /* LaunchScreen.storyboard in Resources */,
+				5BF8759124B2092200F6509E /* travel2.jpg in Resources */,
 				5BF8758324B2085700F6509E /* Assets.xcassets in Resources */,
+				5BF8759324B20BBD00F6509E /* travel3.jpg in Resources */,
 				5BF8758124B2085500F6509E /* Main.storyboard in Resources */,
+				5BF8758F24B2088F00F6509E /* travel.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
